@@ -52,20 +52,6 @@ Este repositório serve como um **histórico de aprendizado**, armazenando proje
 
 ---
 
-## Autor
-
-<p align="center">
-  <a href="https://github.com/lucaaszsx">
-    <img src="https://img.shields.io/badge/GitHub-lucaaszsx-181717?style=for-the-badge&logo=github" alt="lucaaszsx">
-  </a>
-</p>
-
-<p>
-  Este projeto foi desenvolvido por <b>lucaaszsx (Lucas)</b> como parte de uma atividade prática da disciplina de Desenvolvimento Web.
-</p>
-
----
-
 ## Licença
 <p align="center">
   <img src="https://img.shields.io/badge/License-Unlicense-blue?style=for-the-badge" alt="Unlicense">
