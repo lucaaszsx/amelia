@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Resistores</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Resistência</h1>
+    <form id="resistorForm">
+      <label for="band1">1ª Faixa:</label>
+      <select id="band1"></select>
+
+      <label for="band2">2ª Faixa:</label>
+      <select id="band2"></select>
+
+      <label for="multiplier">Multiplicador:</label>
+      <select id="multiplier"></select>
+
+      <label for="tolerance">Tolerância:</label>
+      <select id="tolerance"></select>
+
+      <input type="submit" value="Calcular">
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
