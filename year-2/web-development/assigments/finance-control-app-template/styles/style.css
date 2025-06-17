@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: white;
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 3.5rem;
+}
+
+header .receita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .receita h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#receita {
+    flex: 1;
+    height: 2.5rem;
+    background-color: #00cec9;
+    border: 0.1rem solid #00cec9;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+#receita i {
+    background-color: aquamarine;
+    font-size: x-large;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-form h2 {
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.modal-form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.modal-form input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.modal-actions button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cancelar {
+    background-color: #ccc;
+    color: #333;
+}
+
+#cancelar:hover {
+    background-color: #b2bec3;
+}
+
+#confirmar {
+    background-color: #00b894;
+    color: white;
+}
+
+#confirmar:hover {
+    background-color: #019875;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1rem;
+}
+
+#mais {
+    width: 100%;
+    max-width: 60%;
+    height: 2.5rem;
+    background-color: #00cec9;
+    border: 0.1rem solid #00cec9;
+    cursor: pointer;
+    border-radius: 3rem;
+    
+}
+
+#mais i {
+    background-color: aquamarine;
+    font-size: x-large;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+ul {
+    width: 100%;
+}
+
+ul .gasto {
+    width: 100%;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    border: .1rem solid black;
+    border-radius: 1.2rem;
+}
+
+ul li .info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: .8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+footer div {
+    width: 7rem;
+    height: auto;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+}
