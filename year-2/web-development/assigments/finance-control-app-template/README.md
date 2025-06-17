@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este sistema de controle financeiro foi desenvolvido como parte de uma atividade da disciplina de **Desenvolvimento Web (2025)**. A proposta era criar uma aplicação funcional utilizando **HTML, CSS e JavaScript** puros. O projeto foi desenvolvido **a pedido do [professor](https://github.com/ilderlandio)** para servir como **referência base para os colegas** na finalização dos seus próprios trabalhos.
+Este sistema de controle financeiro foi desenvolvido como parte de uma atividade da disciplina de **Desenvolvimento Web (2025)**. A proposta era criar uma aplicação funcional utilizando **HTML, CSS e JavaScript** puros. O projeto foi desenvolvido **a pedido do [professor](https://github.com/ilderlandio)** para servir como **referência base para os outros alunos** na finalização dos seus próprios trabalhos.
 
 ## Tecnologias Utilizadas
 
@@ -39,7 +39,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. **Baixe o projeto**  
    - Clone o repositório com o Git:  
      ```sh
-     git clone https://github.com/seu-usuario/seu-repositorio.git
+     git clone https://github.com/lucaaszsx/amelia.git
      ```
    - Ou faça o download do código como **ZIP** e extraia os arquivos.
 
@@ -56,7 +56,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 </p>
 
 <p>
-  Projeto desenvolvido por <b>lucaaszsx (Lucas)</b> como apoio pedagógico para os colegas da disciplina de Desenvolvimento Web.
+  Projeto desenvolvido por <b>lucaaszsx (Lucas)</b> como apoio pedagógico para os alunos da disciplina de Desenvolvimento Web.
 </p>
 
 ## Licença
